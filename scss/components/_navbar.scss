@@ -1,90 +1,4 @@
 @media (max-width: 600px) {
-    .Logo {
-      display: none;
-    }
-  
-    .TeraJ,
-    .TeraM,
-    .CabF,
-    .CabH {
-      flex-direction: column;
-    }
-    .box.clientes-container {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
-  .Logo {
-    transition: 1s;
-      &:hover {
-      transform: rotate(360deg);
-      border-radius:25%;
-    }
-  }
-  
-  .nav-link {
-    &:hover {
-      scale: 1.5;
-     
-    }
-  }
-  
-  .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
-  }
-  
-  ul {
-    list-style-type: none;
-    font-size: 17px;
-    display: inline-block;
-    text-underline-position: none;
-  }
-  
-  li {
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .Logo {
-    float: left;
-    border-radius: 50%;
-    height: 100px;
-  }
-  
-  /*estilos barra de navegación*/
-  
-  nav {  
-    overflow: hidden;
-    padding: 8px;
-    background-image: linear-gradient( to bottom, rgb(31, 240, 240), rgb(1, 132, 155));
-  }
-  .navbar-toggler {
-    background-color: #fff;
-  }
-  
-  nav li {
-    float: left;
-  }
-  
-  nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  nav li a:hover {
-    background-color: #5edce6;
-    color: rgb(91, 204, 195);
-  }
-  /*estilos del navBar*/
-
-@media (max-width: 600px) {
   .Logo {
     display: none;
   }
@@ -99,6 +13,10 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+h1 {
+    margin-top: 20px;
 }
 
 .Logo {
