@@ -1,0 +1,38 @@
+/* estilos footer*/
+
+footer {
+    background-image: linear-gradient( to top, rgb(31, 240, 240), rgb(1, 132, 155));
+    color: #fff;
+    text-align: center;
+    margin: none;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los iconos de las redes sociales en el footer */
+  
+  .socialMedia li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .socialMedia a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .fab {
+    transition: 0.5s;
+    &:hover{
+      transform: rotate(360deg);
+      scale: 2;
+    }
+  }
+  
+  
+  img {
+    height: 300px;
+  }
+  

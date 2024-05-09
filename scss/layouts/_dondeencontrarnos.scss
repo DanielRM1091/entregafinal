@@ -1,0 +1,59 @@
+/*estilos ubicacion*/
+.Ubicacion {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+  }
+  
+  .Map {
+    width: 50%;
+    display: center;
+  }
+  .MapText {
+    width: 100%;
+  }
+  
+  /* estilos de formulario*/
+  .Form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .Form form {
+    background-color: #56dbd0;
+    padding: 20px 120px 20px 20px;
+    border-radius: 8px;
+  }
+  
+  .Form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .Form input[type="text"],
+  .Form input[type="email"],
+  .Form input[type="tel"],
+  .Form input[type="submit"] {
+    width: 150%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #109790;
+    border-radius: 5px;
+  }
+  
+  .Form input[type="submit"] {
+    background-color: #11837d;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .Form input[type="submit"]:hover {
+    background-color: #5bb6c2;
+  }
+  
+  .Form input[type="submit"]:active {
+    background-color: #2aaca5;
+  }
+  
