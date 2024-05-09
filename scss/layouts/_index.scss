@@ -45,7 +45,9 @@ main {
       -webkit-text-stroke: 0.5px black;
     }
   }
+
   
+
   /*estilos main*/
   main {
     background-image: url(../Imagenes/img2.jpg);
@@ -80,5 +82,31 @@ main {
   .wide {
     -ms-grid-column: span 10;
   }
+  
+  @media (max-width: 600px) {
+    .Logo {
+      display: none;
+    }
+    .TeraJ,
+    .TeraM,
+    .CabF,
+    .CabH {
+      flex-direction: column;
+    }
+    .box.clientes-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  
+  .Logo {
+    transition: 1s;
+      &:hover {
+      transform: rotate(360deg);
+      border-radius:25%;
+    }
+  }
+
   
   
